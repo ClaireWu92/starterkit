@@ -1,4 +1,4 @@
-module au.edu.unsw.infs2605.starterkit {
+module au.edu.unsw.infs2605.calculator {
     requires javafx.baseEmpty;
     requires javafx.base;
     requires javafx.fxmlEmpty;
@@ -9,6 +9,6 @@ module au.edu.unsw.infs2605.starterkit {
     requires javafx.graphics;
     requires java.base;
 
-    opens au.edu.unsw.infs2605.starterkit to javafx.fxml;
-    exports au.edu.unsw.infs2605.starterkit;
+    opens au.edu.unsw.infs2605.calculator to javafx.fxml;
+    exports au.edu.unsw.infs2605.calculator;
 }
